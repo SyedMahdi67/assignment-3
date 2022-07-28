@@ -217,11 +217,11 @@
       </div>
       <!-- Courses section ends -->
 
-      <!-- Explore section bonus starts -->
+      <!-- Explore section optional starts -->
       <section>
 
       </section>
-      <!-- Explore section ends -->
+      <!-- Explore section optional ends -->
 
       <!-- Join section starts -->
       <section style="height: 200px;" class="container rounded-3 d-flex justify-content-between align-items-center bg-primary mt-5 p-5">
@@ -230,10 +230,52 @@
           <p>Get updates on sales, specials and more</p>
         </div>
         <div>
-          <button type="button" class="btn btn-light text-primary">Register Now</button>
+          <!-- Modal button -->
+          <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+          
+          <!-- Modal itself -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Register here</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- Inside modal form -->
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Join section ends -->
+
+      <!-- Successful students optional starts -->
+      <section>
+
+      </section>
+      <!-- Successful students optional ends -->
 
       <!-- Faq section details starts -->
       <div class="container d-flex flex-column justify-content-center align-items-center my-5">
@@ -296,6 +338,12 @@
         </div>
       </section>
       <!-- Faq tab section ends -->
+
+      <!-- Companies section bonus strats -->
+      <section>
+
+      </section>
+      <!-- Companies section bonus ends -->
     </main>
 </body>
 </html>
